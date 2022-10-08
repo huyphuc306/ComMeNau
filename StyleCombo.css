@@ -1,0 +1,185 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 6, 2022, 9:24:55 PM
+    Author     : MSI GAMING
+*/
+/*HEAD*/
+.head{
+    display: flex;
+    background-color: #242E52;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid;
+    align-items: baseline;
+}
+li a{
+    text-decoration: none;
+    font-size: 21px;
+}
+.head li{
+    text-decoration: none;
+    list-style: none;
+}
+.Detail{
+    margin-left: -10px;
+}
+.head h2{
+    text-align: center;
+    color: white;
+}
+.Home{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    float: left;
+    margin-right: auto;
+    padding-left: 0px;
+    margin-bottom: 0px;
+;
+}
+.Home li{
+    padding: 0px;
+}
+.Home img{
+    height: 100px;
+    width: 185px;
+}
+.Login-Signup{
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    float: right;
+    margin-left: auto;
+    display: flex;
+}
+.Login-Signup li{
+    padding: 15px;
+}
+
+/*LEFT COLUMN*/
+.CombPict img{
+    width: 375px;
+    height: 390px;
+    border: 1px solid;
+    border-radius: 5px; 
+}
+.Describe h4{
+    font-weight: bolder;
+}
+.Describe p{
+    width: 90%;
+}
+
+/*MIDDLE COLUMN*/
+.box{
+    display: flex;
+    border: 2px solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.pic img{
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+}
+.Content{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.ButtonShow{
+    margin-bottom: 20px;
+}
+.ButtonShow button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: center;
+/*    border-radius: 60px;*/
+}
+.ButtonShow p{
+    padding-top:10px;
+}
+.price{
+    padding-top: 10.5px;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: #242E52;
+    font-size: 15px;
+}
+.price-left {
+    text-align: left;
+    float: left;
+    margin-right: auto;
+    padding-left: 25px;
+    color: white;
+}
+.price-right {
+    float: right;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 25px;
+    color: white;
+}
+
+/*THIRD COLUMN*/
+.thank{
+    background-color: #F4F2EF;
+    margin-top: 15px;
+    border: 1.8px solid;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 95px;
+}
+.top{
+    text-align: center;
+}
+.top h3{
+    padding-bottom: 8px;
+}
+.bott{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 55px;
+    background-color: #242E52;
+    padding: 5px;
+    width: 99.9%;
+}
+.bott p{
+    padding-top: 10px;
+    color: white;
+}
+.Nutr{
+    padding-top: 50px;
+    padding-left: 35px;
+}
+.Nutr h4{
+    font-weight: bolder;
+}
+.Nutr p{
+    width: 100%;
+}
+/*FOOT*/
+.foot{
+    margin-top: 5%;
+}
+.footer{
+    bottom: 0;
+/*    height: 50px;*/
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+}
