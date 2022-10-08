@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 22, 2022, 11:44:13 PM
+    Author     : MSI GAMING
+*/
+.container{
+    padding-top: 25px;
+}
+.Topic{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.UserBlock{
+    border-bottom: 2px solid;
+    padding-left: 15px;
+    padding-bottom: 12px;
+}
+.UserBlock h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #044EDD;
+}
+input[type=submit]{
+    background-color: #08268D;
+    border: none;
+    color: white;
+    padding: 4px;
+}
+input[type=submit]:hover{
+    background-color: #044EDD;
+}
+.PhoneBlock{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.PhoneBlock h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #044EDD;
+}
+p{
+    padding: 5px;
+}
+.PhoneBlock input[type=submit]{
+    margin-top: 5px;
+}
+/*.History{
+    padding-left: 15px;
+}
+.History h3{
+  font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #044EDD;
+}*/
+.userInfo-list {
+    margin-top: 32px;
+    text-decoration: none;
+    list-style: none;
+}
+.category-name-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.category-name-link:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.BlockInfo{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
