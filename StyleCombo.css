@@ -77,13 +77,15 @@ li a{
 /*MIDDLE COLUMN*/
 .box{
     display: flex;
-    border: 2px solid;
+    border: 1px solid;
     margin-bottom: 20px;
     border-radius: 10px;
+    height: 100%;
 }
+
 .pic img{
     width: 200px;
-    height: 140px;
+    height: 100%;
     border-radius: 10px;
 }
 .Content{
