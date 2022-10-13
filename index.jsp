@@ -28,26 +28,25 @@
             </div>
         <div class="col-md-8 col-lg-8">
         <div class="BlockInfo">
-        <h1 class="Topic">User Information</h1>
+        <h1 class="Topic">Hồ sơ của tôi</h1>
         <div class="UserBlock">
-        <h3>Change Info</h3>
+        <h3 style="padding-bottom: 10px;">Change Info</h3>
         <form action="#" method="POST">
-            <div>
-            <p>Name <input type="text" name="name" value="" size="25" required=""/> </p> </div>
-            <div ><p>Address <input type="text" name="address" value="" size="25" required=""/> </p>  </div>
-            <div><p>E-mail <input type="email" name="email" value="" size="25" required=""/> </p>  </div>
-            <div><p>Password <input type="password" name="password" value="" size="25" required=""/> </p>  </div>
-            <input type="submit" name="action" value="Update Profile"/>
+            <div class="Exdf"><p><div class="Gap">Name</div><input type="text" name="name" value="" size="27" required=""/> </p> </div>
+            <div class="Exdf"><p><div class="Gap">E-mail</div><input type="email" name="email" value="123@gmail.com" size="27" readonly=""/> </p>  </div>
+            <div class="Exdf"><p><div class="Gap">Phone</div><input type="text" name="address" value="" size="27" required=""/> </p>  </div>
+            <div class="Exdf"><p><div class="Gap">Address</div><input type="text" name="password" value="" size="27" required=""/> </p>  </div>
+            <input type="submit" name="action" value="Lưu Info"/>
             
         </form>
         </div>
-        <div class="PhoneBlock">
+<!--        <div class="PhoneBlock">
         <form action="#" method="POST">  
             <h3>Phone Manage</h3>
             <p><input type="text" name="phone" value="" required=""/></p>
             <input type="submit" name="action" value="Update number"/>
         </form>  
-        </div>
+        </div>-->
 <!--        <div class="History">
                 <h3>History purchage</h3>
                 <p>TEXT...</p>
